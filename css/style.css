@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.note {
+    position: absolute;
+    top: 10px;
+    color: red;
+    left: 10px;
+}
+h1 {
+    margin: 50px auto 0px auto;
+    font-size: 5.6rem;
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf;
+}
+h2 {
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+a{
+    color: #11999e;
+}
+
+.Top_container{
+    background-color: rgb(230, 251, 255);
+    position: relative;
+    padding-top: 100px;
+}
+.dev {
+    text-decoration: underline;
+}  
+.cloud-one {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.cloud-two{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+/* what I copied from Udemy */
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: start;
+    line-height: 1.7;
+}
+
+
+.skill_img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill_img2 {
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+.my_image {
+    padding-top: 50px;
+    width: 150px;
+}
+.about_me_text {
+    width:30%;
+    line-height: 2;
+    margin: auto;
+}
+hr {
+    margin: 100px auto;
+    width: 5%;
+    border-style: dotted;
+    border-width: 5px;
+    border-top: 0px;
+    border-color:#00dfdf;
+}
+.Touch_text {
+    font-size: 0.9rem;
+    font-weight: bolder;
+    margin: 40px auto;
+}
+.Touch_text_two {
+    width: 35%;
+    margin: 40px auto;
+    line-height: 2;
+}
+.btn{
+    text-transform: capitalize;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#11cdd4,#0c878b);
+    transition: 0.3s;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+.btn:hover {
+    background: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+/* The footer section */
+
+.bottom-container {
+    width: 100%;
+    background-color: #7bebeb;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.footer-link {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover {
+    color: wheat;
+}
+.copy_rights {
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 0.75rem;
+}
